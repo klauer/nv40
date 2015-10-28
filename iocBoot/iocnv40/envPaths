@@ -1,0 +1,7 @@
+epicsEnvSet("ARCH","linux-x86_64")
+epicsEnvSet("IOC","iocnv40test")
+epicsEnvSet("TOP","/epics/iocs/nv40")
+epicsEnvSet("SUPPORT","/home/qtang/")
+epicsEnvSet("ASYN","/home/qtang//asyn4-27")
+epicsEnvSet("MOTOR","/home/qtang//motorR6-9")
+epicsEnvSet("EPICS_BASE","/usr/lib/epics")

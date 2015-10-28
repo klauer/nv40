@@ -1,0 +1,7 @@
+O.*
+*.sw[op]
+bin/
+lib/
+dbd/
+db/
+autosave/

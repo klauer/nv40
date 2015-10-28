@@ -1,0 +1,3 @@
+file motor_positions.req P=NV40:,M=ax1
+file motor_positions.req P=NV40:,M=ax2
+file motor_positions.req P=NV40:,M=ax3

@@ -1,0 +1,5 @@
+NAME=nv40
+PORT=4001
+USER=softioc
+HOST=e1nano.nsls.bnl.gov
+CHDIR="$CHDIR/iocBoot/iocnv40test"

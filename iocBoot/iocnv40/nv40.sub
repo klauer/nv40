@@ -1,0 +1,18 @@
+file "motor.db"
+{
+  pattern
+  {    P,     M,           DTYP,    PORT, ADDR,     DESC,  EGU, DIR, VMAX, VELO, VBAS, ACCL, BDST, BVEL, BACC,     MRES, PREC,DHLM,   DLLM, RTRY,   RDBD,  DLY, OFF, INIT }
+  { NV40:,  "ax1", "asynMotor",  "NV40",    0, "NV40 x",   um, Pos,  1.0,  0.1, 0.10,  0.1,    0,    1,   .1, 0.000001,    8,  35,      0,    0, 0.0005, 0.05,   0,   "" }
+  { NV40:,  "ax2", "asynMotor",  "NV40",    1, "NV40 y",   um, Pos,  1.0,  0.1, 0.10,  0.1,    0,    1,   .1, 0.000001,    8,  35,      0,    0, 0.0005, 0.05,   0,   "" }
+  { NV40:,  "ax3", "asynMotor",  "NV40",    2, "NV40 z",   um, Pos,  1.0,  0.1, 0.10,  0.1,    0,    1,   .1, 0.000001,    8,  35,      0,    0, 0.0005, 0.05,   0,   "" }
+}
+
+
+file "asynRecord.db"
+{
+  pattern
+  {    P,         R,      PORT,   ADDR,   OMAX, IMAX }
+  {NV40:,        asyn,    NV40,      0,    256,  256 }
+}
+
+
